@@ -1,43 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chen Jiarui (Jerry) — Materials Science</title>
-<style>
-body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #1f2937; line-height: 1.6; }
-header { background: #0f2a44; color: #fff; padding: 3rem 1.5rem; text-align: center; }
-header h1 { margin: 0; font-size: 2.2rem; }
-header p { margin: .5rem 0 0; color: #cbd5e1; }
-main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
-section { margin-bottom: 2.5rem; }
-h2 { border-bottom: 2px solid #0f2a44; padding-bottom: .3rem; }
-a { color: #0f2a44; }
-footer { text-align: center; color: #6b7280; padding: 1.5rem; border-top: 1px solid #e5e7eb; }
-</style>
-</head>
-<body>
-<header>
-<h1>Chen Jiarui (Jerry)</h1>
-<p>Master's student in Materials Science &amp; Engineering, NTU</p>
-</header>
-<main>
-<section id="about">
-<h2>About</h2>
-<p>Hello, I'm Chen Jiarui (Jerry), a master's student in materials science and engineering at NTU. I'm interested in materials research and in applying what I learn to real-world problems. I'm currently looking for job opportunities where I can contribute, learn, and grow.</p>
-</section>
-<section id="projects">
-<h2>Projects</h2>
-<p>Selected projects will be added here soon. Please check back, or get in touch to ask about my recent work.</p>
-</section>
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: <a href="mailto:ANOTCHBT@163.com">ANOTCHBT@163.com</a></p>
-<p>GitHub: <a href="https://github.com/chenjiarui018">github.com/chenjiarui018</a></p>
-</section>
-</main>
-<footer>
-<p>&copy; Chen Jiarui (Jerry)</p>
-</footer>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chen Jiarui (Jerry)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- BEGIN NAVBAR -->
+    <div class="navbar">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!-- END NAVBAR -->
+
+    <div class="container">
+
+      <!-- HEADER -->
+      <div class="jumbotron">
+        <div class="jumbotron-text">
+          <h1>Chen Jiarui (Jerry)</h1>
+          <p>Master's student in Materials Science &amp; Engineering, NTU — graduating end of 2027, looking for materials / semiconductor opportunities in Singapore</p>
+        </div>
+        <div class="jumbotron-social">
+          <ul class="ul-social">
+            <li class="li-social-links">
+              <a class="social" href="https://github.com/chenjiarui018" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div id="down-arrow">
+          <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+        </div>
+      </div>
+      <!-- END HEADER -->
+
+      <!-- BEGIN ABOUT -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="about"></a>
+            <h2>About</h2>
+          </div>
+          <div class="content-body">
+            <p>Hello, I'm Chen Jiarui (Jerry), a master's student in materials science and engineering at NTU. I'm interested in materials research and in applying what I learn to real-world problems. I'm currently looking for job opportunities where I can contribute, learn, and grow.</p>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END ABOUT -->
+
+      <!-- BEGIN EDUCATION -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="education"></a>
+            <h2>Education</h2>
+          </div>
+          <div class="content-body">
+            <div class="card">
+              <div class="card-header">
+                <h4>Nanyang Technological University <span class="job-title">MSc Materials Science &amp; Engineering</span></h4>
+              </div>
+              <div class="card-content">
+                <p>Expected graduation end of 2027.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END EDUCATION -->
+
+      <!-- BEGIN PROJECTS -->
+      <div class="row">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+          <div class="content-header">
+            <a class="anchor" name="projects"></a>
+            <h2>Projects</h2>
+          </div>
+          <div class="content-body">
+            <div class="project-card">
+              <div class="project-content">
+                <h4>Coming soon</h4>
+                <p>Selected projects will be added soon.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-content-sm"></div>
+      </div>
+      <!-- END PROJECTS -->
+
+      <!-- BEGIN CONTACT -->
+      <div class="row blue">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="contact"></a>
+            <h2 class="white-text">Contact Me</h2>
+          </div>
+          <div class="contact content-body">
+            <p class="white-text">Email: <a href="mailto:ANOTCHBT@163.com" style="color: white;">ANOTCHBT@163.com</a></p>
+            <p class="white-text">GitHub: <a href="https://github.com/chenjiarui018" style="color: white;">github.com/chenjiarui018</a></p>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END CONTACT -->
+
+      <!-- BEGIN FOOTER -->
+      <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+          </div>
+          <div class="content-body">
+            <p>&copy; Chen Jiarui (Jerry)</p>
+            <p>Template: bmorelli25/portfolio-template (MIT)</p>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END FOOTER -->
+
+    </div>
+  </body>
 </html>
